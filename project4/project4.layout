@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="main.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14015" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="188" />
+			<Collapse line="222" />
+			<Collapse line="231" />
+			<Collapse line="260" />
+			<Collapse line="271" />
+			<Collapse line="275" />
+			<Collapse line="279" />
+			<Collapse line="283" />
+			<Collapse line="287" />
+			<Collapse line="297" />
+			<Collapse line="319" />
+			<Collapse line="335" />
+			<Collapse line="342" />
+			<Collapse line="352" />
+		</Folding>
+	</File>
+	<File name="input_buildings.txt" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="385" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="input_courses.txt" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="197" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
