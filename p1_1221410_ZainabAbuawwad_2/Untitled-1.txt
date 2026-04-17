@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node {
+ int data;
+ struct node *next;
+};
+
+
+struct node* createNode (int data);
+void insert (int x,struct node* p, struct node* l);
+void display (struct node* l);
+
+int main() {
+
+ struct node* head = NULL;
+ struct node* second = NULL;
+ struct node* third = NULL;
+
+ head = createNode(1);
+    second = createNode(2);
+    third = createNode(3);
+
+    head->next = second;
+    second->next = third;
+
+
+    printf("Linked list: ");
+    display(head);
+    insert(4,second,third);
+    display(head);
+
+}
+// to create every single node 
+struct node* createNode (int data){
+    struct node* newnode = (struct node*)malloc(sizeof(struct node));
+    if(newnode == NULL){
+        printf("memory allocation failed \n");
+        exit(1);
+    }
+    newnode->data = data;
+    newnode->next = NULL;
+
+    return newnode;
+}
+// to insert any new element at any position in the list
+void insert (int x, struct node* p, struct node* l){
+  struct node* tmp=createNode(x) ;
+
+
+
+  tmp->data = x;
+  tmp->next = p->next;
+  p->next = tmp;
+
+}
+//printing list
+void display (struct node* l){
+  if(l == NULL){
+    printf("list is empty \n");
+
+  }
+  else
+  {
+      struct node* tmp = l;
+      while (tmp != NULL){
+        printf("%d ",tmp->data);
+        tmp= tmp->next;
+      }
+      printf("\n");
+  }
+
+}
+
+
+

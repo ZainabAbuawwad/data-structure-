@@ -1,0 +1,13 @@
+ Hebron 
+  Halhul ,  40000
+  Dura ,  100000
+
+ Jenin 
+  Jaba ,  7000
+  Yabad ,  31000
+  Jenin ,  92000
+
+ Gaza 
+  Jabalia ,  1222
+  Beit Hanoon ,  50000
+
